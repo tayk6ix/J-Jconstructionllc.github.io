@@ -10,16 +10,16 @@ export const GalleryData = [
         ],
         CardImages: [
             {
-                image: '/Project1/6V1.jpg',  
+                image: '/Project1/6V1.webp',  
             },
             {
-                image: '/Project1/8V1.jpg',  
+                image: '/Project1/8V1.webp',  
             },
             {
-                image: '/Project1/2V1.jpg',  
+                image: '/Project1/2V1.webp',  
             },
             {
-                image: '/Project1/7V1.jpg',  
+                image: '/Project1/7V1.webp',  
             },
         ]
     },
@@ -33,13 +33,13 @@ export const GalleryData = [
         ],
         CardImages: [
             {
-                image: '/Project2/11V1.jpg',
+                image: '/Project2/11V1.webp',
             },
             {
-                image: '/Project2/4V1.jpg',
+                image: '/Project2/4V1.webp',
             },
             {
-                image: '/Project2/2V1.jpg',
+                image: '/Project2/2V1.webp',
             },
         ]
     },
@@ -95,16 +95,16 @@ export const GalleryData = [
         ],
         CardImages: [
             {
-                image: '/Project5/8V1.jpg',
+                image: '/Project5/8V1.webp',
             },
             {
-                image: '/Project5/4V1.jpg',
+                image: '/Project5/4V1.webp',
             },
             {
-                image: '/Project5/10V1.jpg',
+                image: '/Project5/10V1.webp',
             },
             {
-                image: '/Project5/1V1.jpg',
+                image: '/Project5/1V1.webp',
             },
         ]
     },
