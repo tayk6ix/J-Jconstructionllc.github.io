@@ -210,6 +210,33 @@ const GalleryMain = (cards) => {
                 <p className='font_small font-light'>Finding your perfect project is about more than just constructing a house; it's about creating a haven that encompasses your passions, values, and vision for the future. Whether you crave a serene oasis tucked away from the chaos of the world or an inspiring space that fosters creativity and connection, the possibilities are endless.</p>
             </div>
             <Image key={100} unoptimized src='/StockPhotos/HeroImage.jpeg' alt='image' width={100} height={100} className='how_img' />
+            
+                
+            {/* <picture className='aspect-[4/5]'>
+                <source
+                media="(max-width: 767px)"
+                sizes="(max-width: 768px) 95vw, 691px"
+                srcset="
+                /Project1/Image1/1V1_dmgymf_c_scale,w_200.webp 200w,
+                /Project1/Image1/1V1_dmgymf_c_scale,w_649.webp 649w,
+                /Project1/Image1/1V1_dmgymf_c_scale,w_691.webp 691w"/>
+                <source
+                media="(min-width: 768px) and (max-width: 991px)"
+                sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                srcset="
+                /Project1/Image1/1V1_dmgymf_c_scale,w_231.webp 231w,
+                /Project1/Image1/1V1_dmgymf_c_scale,w_298.webp 298w"/>
+                <img
+                sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                srcset="
+                /Project1/Image1/1V1_dmgymf_c_scale,w_298.webp 298w,
+                /Project1/Image1/1V1_dmgymf_c_scale,w_641.webp 641w,
+                /Project1/Image1/1V1_dmgymf_c_scale,w_852.webp 852w,
+                /Project1/Image1/1V1_dmgymf_c_scale,w_864.webp 864w"
+                src="/Project1/Image1/1V1_dmgymf_c_scale,w_864.webp"
+                alt=""/>
+            </picture> */}
+
         </div>
         <div className='flex flex-col items-center'>
             <h3 className='font_xs  font-light'>FEATURED PROJECTS</h3>
@@ -217,7 +244,33 @@ const GalleryMain = (cards) => {
             <div className='grid grid-cols-1 tablet:grid-cols-3 grid-row-3 grid-flow-auto gap-4 w-full h-full relative'>
 
                 <div className='aspect-[4/5] relative group/card1'>
-                <Image unoptimized key={1} src={GalleryData[currentSet].CardImages[currentIndex].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                {/* <Image unoptimized key={1} src={GalleryData[currentSet].CardImages[currentIndex].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet].CardImages[currentIndex].SrcImage[0].image}
+                        {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[1].image}
+                        {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[2].image}
+                    />
+                    <source
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet].CardImages[currentIndex].SrcImage[3].image}
+                        {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[4].image}
+                    />
+                    <img
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet].CardImages[currentIndex].SrcImage[5].image}
+                    {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[6].image}
+                    {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[7].image}
+                    {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[8].image}
+                    src={GalleryData[currentSet].CardImages[currentIndex].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                 <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                     <p className='text-[14px] font-light  '>{`${GalleryData[currentSet].type}`}</p>
                     <h4 className=' text-[20px] '>{`${GalleryData[currentSet].projectName}`}</h4>
@@ -258,7 +311,7 @@ const GalleryMain = (cards) => {
                 </div>
                 </div>
 
-                <div className='aspect-[4/5] relative group/card1'>
+                <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
                     <Image unoptimized key={1} src={GalleryData[currentSet4].CardImages[currentIndex4].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet4].type}`}</p>
@@ -272,7 +325,7 @@ const GalleryMain = (cards) => {
                     </div>
                 </div>
 
-                <div className='aspect-[4/5] relative group/card1'>
+                <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
                     <Image unoptimized key={1} src={GalleryData[currentSet5].CardImages[currentIndex5].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet5].type}`}</p>
@@ -286,7 +339,7 @@ const GalleryMain = (cards) => {
                     </div>
                 </div>
 
-                <div className='aspect-[4/5] relative group/card1'>
+                <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
                     <Image unoptimized key={1} src={GalleryData[currentSet6].CardImages[currentIndex6].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
@@ -300,7 +353,7 @@ const GalleryMain = (cards) => {
                     </div>
                 </div>
 
-                <div className='aspect-[4/5] relative group/card1'>
+                <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
                     <Image unoptimized key={1} src={GalleryData[currentSet7].CardImages[currentIndex7].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
@@ -314,7 +367,7 @@ const GalleryMain = (cards) => {
                     </div>
                 </div>
 
-                <div className='aspect-[4/5] relative group/card1'>
+                <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
                     <Image unoptimized key={1} src={GalleryData[currentSet8].CardImages[currentIndex8].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
@@ -328,7 +381,7 @@ const GalleryMain = (cards) => {
                     </div>
                 </div>
 
-                <div className='aspect-[4/5] relative group/card1'>
+                <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
                     <Image unoptimized key={1} src={GalleryData[currentSet9].CardImages[currentIndex9].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
@@ -350,10 +403,10 @@ const GalleryMain = (cards) => {
                     <FontAwesomeIcon icon={faAngleRight} size="2xl" style={{color: "#FFFFFF",}} onClick={nextProject} />
                 </div>
                 
-                <div className='absolute bottom-[-4rem] translate-x-0 left-[45%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                <div className='absolute bottom-[-4rem] translate-x-[-5rem] left-[50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <FontAwesomeIcon icon={faAngleLeft} size="2xl" style={{color: "#FFFFFF",}}  onClick={prevProject} />
                 </div>
-                <div className='absolute bottom-[-4rem] translate-x-0 right-[45%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                <div className='absolute bottom-[-4rem] translate-x-[5rem] right-[50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <FontAwesomeIcon icon={faAngleRight} size="2xl" style={{color: "#FFFFFF",}} onClick={nextProject} />
                 </div>
 

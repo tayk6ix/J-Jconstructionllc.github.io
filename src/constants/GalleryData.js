@@ -10,16 +10,72 @@ export const GalleryData = [
         ],
         CardImages: [
             {
-                image: '/Project1/6V1.webp',  
+                SrcImage:[
+                     {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_200.webp 200w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_231.webp 231w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_298-1.webp 298w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_298.webp 298w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_641.webp 641w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_649.webp 649w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_691.webp 691w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_852.webp 852w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_864.webp 864w',  
+                    },
+                    {
+                        image: '/Project1/Image1/1V1_dmgymf_c_scale,w_864.webp',  
+                    },
+                ]
             },
             {
-                image: '/Project1/8V1.webp',  
-            },
-            {
-                image: '/Project1/2V1.webp',  
-            },
-            {
-                image: '/Project1/7V1.webp',  
+                SrcImage:[
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_200.webp 200w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_231.webp 231w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_298-1.webp 298w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_298.webp 298w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_557.webp 557w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_593.webp 593w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_691.webp 691w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_806.webp 806w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_864.webp 864w',  
+                    },
+                    {
+                        image: '/Project1/Image6/6V1_iujqh3_c_scale,w_864.webp',  
+                    },
+                ]
             },
         ]
     },
@@ -37,6 +93,9 @@ export const GalleryData = [
             },
             {
                 image: '/Project2/4V1.webp',
+            },
+            {
+                image: '/Project2/5V1.webp',
             },
             {
                 image: '/Project2/2V1.webp',

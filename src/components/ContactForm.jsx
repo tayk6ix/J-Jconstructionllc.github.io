@@ -7,7 +7,7 @@ const ContactForm = () => {
         <form action="https://formsubmit.co/info@jnjconstructionllc.net" method="POST"
         className='flex flex-col gap-4  w-full'>
           <div className='flex flex-col gap-4 tablet:flex-row'>
-            <input type="text" name="last_name" id="last_name" placeholder='First Name'/>
+            <input type="text" name="first_name" id="last_name" placeholder='First Name'/>
             <input type="text" name="last_name" id="last_name" placeholder='Last Name'/>
           </div>
           <input type="email" name="email" id="email" placeholder='Email Addres' required/>
