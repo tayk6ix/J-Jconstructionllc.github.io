@@ -209,7 +209,7 @@ const GalleryMain = (cards) => {
                 <h2 className='font_h2 font-semibold leading-tight'>A Project Just For You</h2>
                 <p className='font_small font-light'>Finding your perfect project is about more than just constructing a house; it's about creating a haven that encompasses your passions, values, and vision for the future. Whether you crave a serene oasis tucked away from the chaos of the world or an inspiring space that fosters creativity and connection, the possibilities are endless.</p>
             </div>
-            <Image unoptimized src='/DesktopImg1.jpeg' alt='image' width={100} height={100} className='how_img' />
+            <Image key={100} unoptimized src='/StockPhotos/HeroImage.jpeg' alt='image' width={100} height={100} className='how_img' />
         </div>
         <div className='flex flex-col items-center'>
             <h3 className='font_xs  font-light'>FEATURED PROJECTS</h3>

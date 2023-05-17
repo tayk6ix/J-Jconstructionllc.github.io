@@ -10,9 +10,9 @@ const Services = (cards) => {
       <div className='grid grid-cols-1 tablet:grid-cols-2 grid-rows-auto grid-flow-auto gap-2 tablet:gap-6 w-full desktop:grid-cols-4'>
       {ServiceData.map((card,index) => {
           return (
-                <div className='flex flex-col shadow-lg shadow-gray-200'>
+                <div key={index} className='flex flex-col shadow-lg shadow-gray-200'>
                     <Image key={index} unoptimized src={card.image1} alt='Image' width={100} height={100} className='service_imgs tablet:hidden'></Image>
-                    <Image key={index} unoptimized src={card.image2} alt='Image' width={100} height={100} className='service_imgs hidden tablet:block tablet:max-h-[23rem] aspect-[5/4] desktop:max-h-[16rem]'></Image>
+                    <Image key={index  + 5} unoptimized src={card.image2} alt='Image' width={100} height={100} className='service_imgs hidden tablet:block tablet:max-h-[23rem] aspect-[5/4] desktop:max-h-[16rem]'></Image>
                     <div className='mx-5 my-8 flex flex-col h-full justify-between'>
                       <div className='flex flex-col gap-4'>
                         <h4 className='font_medium font-medium'>{card.title}</h4>

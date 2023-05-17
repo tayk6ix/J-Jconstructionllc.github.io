@@ -1,5 +1,6 @@
 export const ServiceData = [
     {
+        id: 1, 
         image1: '/StockPhotos/Siding16x9.jpg',
         image2: '/StockPhotos/Siding5x4.jpg',
         title: 'Siding',
@@ -8,6 +9,7 @@ export const ServiceData = [
         link: "'/services#siding'",
     },
     {
+        id: 2, 
         image1: '/StockPhotos/roofing216x9.jpg',
         image2: '/StockPhotos/roofing25x4.jpg',
         title: 'Roofing',
@@ -15,6 +17,7 @@ export const ServiceData = [
         text_extended: "Your roof is one of the most important components of your home, providing essential protection against the elements and helping to maintain the structural integrity of your property. At our roofing services, we offer a comprehensive range of roofing solutions to meet the needs of homeowners and businesses alike. \nWe specialize in all types of roofing, from traditional asphalt shingle roofing to modern metal roofing and everything in between. Our team of experienced roofing professionals can help you choose the right roofing material and style for your home or business, taking into account factors such as climate, budget, and personal preferences. \nIn addition to installation, we also offer roof repair and maintenance services to help extend the life of your roof and keep your property safe and secure. Whether you need a simple repair or a complete roof replacement, our team is here to help. \nAt our roofing services, we are committed to delivering exceptional workmanship and customer service. We use only the highest quality materials and employ experienced, certified roofers to ensure that every project is completed to the highest standards. We also offer competitive pricing and flexible financing options to make our services accessible to everyone. \nIf you're in need of roofing services, contact us today to learn more about our services and how we can help you protect your property and enhance its value"
     },
     {
+        id: 3, 
         image1: '/StockPhotos/116x9Framing.jpg',
         image2: '/StockPhotos/framing5x4.jpg',
         title: 'Framing',
@@ -22,6 +25,7 @@ export const ServiceData = [
         text_extended: "Framing is an essential component of any building project, providing the structural support that ensures your property is safe and stable. At our framing services, we specialize in all types of framing, from traditional wood framing to modern steel framing and beyond. \n Our team of experienced framers can help you design and build a structure that meets your specific needs and preferences, whether you're building a new home, adding an extension, or renovating an existing property. We use only the highest quality materials and employ the latest techniques to ensure that every project is completed to the highest standards. \nIn addition to framing, we also offer other construction services, including roofing, siding, and interior finishing. Our comprehensive approach to construction allows us to manage every aspect of your project from start to finish, ensuring that everything is completed on time and within budget. \nAt our framing services, we are committed to delivering exceptional workmanship and customer service. We understand that building or renovating a property can be stressful, which is why we work closely with our clients to ensure that every project is tailored to their specific needs and preferences. \n If you're in need of framing services or any other construction services, contact us today to learn more about our services and how we can help you bring your vision to life."
     },
     {
+        id: 4, 
         image1: '/StockPhotos/drywall16x9.jpg',
         image2: '/StockPhotos/drywall5x4.jpg',
         title: 'Drywall',

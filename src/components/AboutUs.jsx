@@ -5,14 +5,14 @@ const AboutUs = () => {
   return (
     <div id='aboutUs' className='flex flex-col-reverse overall-margin separation-margin gap-8 desktop:grid grid-cols-2 grid-flow-col items-center'>
       <div className='grid grid-cols-2 grid-rows-2 grid-flow-auto mt-6 gap-3 w-full'>
-        <Image unoptimized src='/StockPhotos/Siding5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
-        <Image unoptimized src='/StockPhotos/framing5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
-        <Image unoptimized src='/StockPhotos/roofing5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
-        <Image unoptimized src='/StockPhotos/drywall5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
-        <Image unoptimized src='/StockPhotos/Siding16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
-        <Image unoptimized src='/StockPhotos/framing16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
-        <Image unoptimized src='/StockPhotos/roofing16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
-        <Image unoptimized src='/StockPhotos/drywall16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
+        <Image key={1} unoptimized src='/StockPhotos/Siding5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
+        <Image key={2} unoptimized src='/StockPhotos/framing5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
+        <Image key={3} unoptimized src='/StockPhotos/roofing5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
+        <Image key={4} unoptimized src='/StockPhotos/drywall5x4.jpg' alt='Image' width={100} height={100} className='about_imgs hidden tablet:block'></Image>
+        <Image key={5} unoptimized src='/StockPhotos/Siding16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
+        <Image key={6} unoptimized src='/StockPhotos/framing16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
+        <Image key={7} unoptimized src='/StockPhotos/roofing16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
+        <Image key={8} unoptimized src='/StockPhotos/drywall16x9.jpg' alt='Image' width={100} height={100} className='about_imgs tablet:hidden'></Image>
       </div>
       <div>
         <h3 className='font_xs font_semibold'>WHO WE ARE</h3>
