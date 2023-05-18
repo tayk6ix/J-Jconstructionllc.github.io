@@ -8,7 +8,6 @@ import MiniGallery from '@/components/MiniGallery'
 import ContactUs from '@/components/ContactUs'
 import Footer from '@/components/Footer'
 import { ServiceData } from '@/constants/ServiceData'
-import { GalleryData } from '@/constants/GalleryData'
 import { HowData } from '@/constants/HowData'
 
 export default function Home() {

@@ -247,6 +247,7 @@ const GalleryMain = (cards) => {
                 {/* <Image unoptimized key={1} src={GalleryData[currentSet].CardImages[currentIndex].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
                 <picture className='service_imgs rounded-xl aspect-[4/5]'>
                     <source
+                    className='rounded-xl aspect-[4/5]'
                     media="(max-width: 767px)"
                     sizes="(max-width: 768px) 95vw, 691px"
                     srcset= 
@@ -255,6 +256,7 @@ const GalleryMain = (cards) => {
                         {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[2].image}
                     />
                     <source
+                    className='rounded-xl aspect-[4/5]'
                     media="(min-width: 768px) and (max-width: 991px)"
                     sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
                     srcset=
@@ -262,6 +264,7 @@ const GalleryMain = (cards) => {
                         {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[4].image}
                     />
                     <img
+                    className='rounded-xl aspect-[4/5]'
                     sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
                     srcset=
                     {GalleryData[currentSet].CardImages[currentIndex].SrcImage[5].image}
