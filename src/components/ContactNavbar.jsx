@@ -2,6 +2,8 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import {faInstagramSquare} from '@fortawesome/free-brands-svg-icons'
+
 
 const ContactNavbar = () => {
 const [nav, setNav] = useState(false)
@@ -19,6 +21,9 @@ const handleNav = () => {
 
         {/* mobile and tablet button */}
         <div className='flex flex-row items-center gap-12'>
+        <Link className='border orangeBorder' href='https://www.instagram.com/jnjconstruction2020/'>
+              <FontAwesomeIcon size='2xl' key={1} icon={faInstagramSquare} style={{color: "#FFFFFF",}} /> 
+          </Link>
           <div className='desktop:hidden z-[5]'>
               {nav
               ? (

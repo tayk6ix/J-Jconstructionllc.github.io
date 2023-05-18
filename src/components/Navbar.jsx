@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import {faInstagramSquare} from '@fortawesome/free-brands-svg-icons'
 
 const Navbar = () => {
 const [nav, setNav] = useState(false)
@@ -17,8 +18,13 @@ const handleNav = () => {
             <img src="/LOGO.png" alt="Logo" />
         </Link>
 
+        
+
         {/* mobile and tablet button */}
         <div className='flex flex-row items-center gap-12'>
+          <Link className='border orangeBorder' href='https://www.instagram.com/jnjconstruction2020/'>
+              <FontAwesomeIcon size='2xl' key={1} icon={faInstagramSquare} style={{color: "#FFFFFF",}} /> 
+          </Link>
           <div className='desktop:hidden z-[5]'>
               {nav
               ? (
@@ -51,7 +57,7 @@ const handleNav = () => {
               <Link href='/'>Home</Link>
             </li>
             <li onClick={handleNav} className='p-4 mobileListBorder'>
-              <Link href='/#gallery'>About Us</Link>
+              <Link href='/#abutUs'>About Us</Link>
             </li>
             <li onClick={handleNav} className='p-4 mobileListBorder'>
               <Link href='/services'>Services</Link>
