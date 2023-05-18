@@ -246,7 +246,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[7].image}
                     {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[8].image}
                     src={GalleryData[currentSet].CardImages[currentIndex].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet].id}`}/>
                 </picture>
                 <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                     <p className='text-[14px] font-light  '>{`${GalleryData[currentSet].type}`}</p>
@@ -289,7 +289,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[7].image}
                     {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[8].image}
                     src={GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet2].id}`}/>
                 </picture>
                 <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                     <p className='text-[14px] font-light  '>{`${GalleryData[currentSet2].type}`}</p>
@@ -332,7 +332,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[7].image}
                     {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[8].image}
                     src={GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[8].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet3].id}`}/>
                 </picture>
                 <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                     <p className='text-[14px] font-light  '>{`${GalleryData[currentSet3].type}`}</p>
@@ -375,7 +375,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[7].image}
                     {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[8].image}
                     src={GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet4].id}`}/>
                 </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet4].type}`}</p>
@@ -418,7 +418,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[7].image}
                     {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[8].image}
                     src={GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet5].id}`}/>
                 </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet5].type}`}</p>
@@ -461,7 +461,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[7].image}
                     {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[8].image}
                     src={GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet6].id}`}/>
                 </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
@@ -504,7 +504,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[7].image}
                     {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[8].image}
                     src={GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet7].id}`}/>
                 </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
@@ -547,7 +547,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[7].image}
                     {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[8].image}
                     src={GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet8].id}`}/>
                 </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
@@ -590,7 +590,7 @@ const GalleryMain = (cards) => {
                     {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[7].image}
                     {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[8].image}
                     src={GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt= {`Project ${GalleryData[currentSet9].id}`}/>
                 </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>

@@ -1011,34 +1011,34 @@ export const GalleryData = [
             {
                 SrcImage:[
                      {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_200.webp 200w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_200.webp 200w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_231.webp 231w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_231.webp 231w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_298-1.webp 298w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_298-1.webp 298w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_298.webp 298w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_298.webp 298w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_624.webp 624w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_624.webp 624w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_691.webp 691w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_691.webp 691w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_867.webp 867w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_867.webp 867w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_1068.webp 1068w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_1068.webp 1068w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_1400.webp 1400w',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_1400.webp 1400w',  
                     },
                     {
-                        image: '/Project8/Image4/4V1_j1vayi_c_scale,w_1400.webp',  
+                        image: '/Project8/Image4/4v1_j1vayi_c_scale,w_1400.webp',  
                     },
                 ]
             },

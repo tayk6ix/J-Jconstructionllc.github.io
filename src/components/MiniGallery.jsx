@@ -9,7 +9,7 @@ const MiniGallery = (cards) => {
   const [currentSet, setcurrentSet] = useState(0);
   const [currentSet2, setcurrentSet2] = useState(1);
   const [currentSet3, setcurrentSet3] = useState(2);
-  
+
   const [currentIndex, setcurrentIndex] = useState(0)
   const [currentIndex2, setcurrentIndex2] = useState(0)
   const [currentIndex3, setcurrentIndex3] = useState(0)
@@ -85,7 +85,7 @@ const MiniGallery = (cards) => {
       <div className='grid grid-cols-1 tablet:grid-cols-3 grid-rows-auto grid-flow-auto gap-4 tablet:gap-4 tablet:px-12 w-full relative group'>
 
           <div className='aspect-[4/5] relative group/card1'>
-            {/* <Image unoptimized key={1} src={GalleryData[currentSet].CardImages[currentIndex].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+            {/* <Image unoptimized key={1} src={GalleryData[currentSet].CardImages[currentIndex].image} alt='IProject mage' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
             <picture className='service_imgs rounded-xl aspect-[4/5]'>
                     <source
                     className='rounded-xl aspect-[4/5]'
@@ -113,7 +113,7 @@ const MiniGallery = (cards) => {
                     {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[7].image}
                     {...GalleryData[currentSet].CardImages[currentIndex].SrcImage[8].image}
                     src={GalleryData[currentSet].CardImages[currentIndex].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt={`Project ${GalleryData[currentSet].id}`}/>
                 </picture>
             <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
               <p className='text-[14px] font-light  '>{`${GalleryData[currentSet].type}`}</p>
@@ -132,7 +132,7 @@ const MiniGallery = (cards) => {
           
           
           <div className='hidden tablet:block aspect-[4/5] relative group/card2'>
-            {/* <Image unoptimized key={1} src={GalleryData[currentSet2].CardImages[currentIndex2].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+            {/* <Image unoptimized key={1} src={GalleryData[currentSet2].CardImages[currentIndex2].image} alt='IProject mage' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
             <picture className='service_imgs rounded-xl aspect-[4/5]'>
                     <source
                     className='rounded-xl aspect-[4/5]'
@@ -160,7 +160,7 @@ const MiniGallery = (cards) => {
                     {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[7].image}
                     {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[8].image}
                     src={GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[9].image}
-                    alt={`${GalleryData[currentSet].id}`} />
+                    alt={`Project ${GalleryData[currentSet2].id}`} />
                 </picture>
             <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
               <p className='text-[14px] font-light  '>{`${GalleryData[currentSet2].type}`}</p>
@@ -178,7 +178,7 @@ const MiniGallery = (cards) => {
           </div>
 
           <div className='hidden tablet:block aspect-[4/5] relative group/card3'>
-            {/* <Image unoptimized key={1} src={GalleryData[currentSet3].CardImages[currentIndex3].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+            {/* <Image unoptimized key={1} src={GalleryData[currentSet3].CardImages[currentIndex3].image} alt='IProject mage' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
             <picture className='service_imgs rounded-xl aspect-[4/5]'>
                     <source
                     className='rounded-xl aspect-[4/5]'
@@ -206,7 +206,7 @@ const MiniGallery = (cards) => {
                     {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[7].image}
                     {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[8].image}
                     src={GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[9].image}
-                    alt="Image 1"/>
+                    alt={`Project ${GalleryData[currentSet3].id}`}/>
                 </picture>
             <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
               <p className='text-[14px] font-light  '>{`${GalleryData[currentSet3].type}`}</p>
