@@ -18,7 +18,7 @@ const AboutUs = () => {
         <h3 className='font_xs font_semibold'>WHO WE ARE</h3>
         <h2 className='font_h2 font-bold'>About Us</h2>
         <p className='font_small darkerText font-light leading-relaxed'>
-          At J&J Construction, we have been committed to providing high-quality construction services to our clients. With over 5+ years of expereince in the industry, our team has the expertise and knowledge necessary to handle even the most complex construction projects. 
+          At J&J Construction, we have been committed to providing high-quality construction services to our clients. With many years of expereince in the industry, our team has the expertise and knowledge necessary to handle even the most complex construction projects. 
           We offer a wide range of construction services, including commercial, residential, and industrial construction, as well as renovations, additions, and remodels. Being said, we do believe in a collaborative approach to construction, working closely with our clients every step of the way to ensure that their vision is realized. Contact us today to learn more about us.</p>
       </div>
     </div>

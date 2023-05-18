@@ -149,7 +149,7 @@ export const GalleryData = [
     },
     {
         id: 2,
-        type: 'Commerical',
+        type: 'Commercial',
         projectName: "G@Market",
         keywords: [
             'siding',
@@ -375,7 +375,7 @@ export const GalleryData = [
     },
     {
         id: 4,
-        type: 'Commerical',
+        type: 'Commercial',
         projectName: "Bella Vista House",
         keywords: [
             'siding',
@@ -1080,7 +1080,7 @@ export const GalleryData = [
     },
     {
         id: 9,
-        type: 'Commerical',
+        type: 'Commercial',
         projectName: "G@Market",
         keywords: [
             'siding',

@@ -13,7 +13,7 @@ const FooterP1 = () => {
         <p className='text-center desktop:text-left font_small text-white font-light'>Together, let's build your dream!</p>
         <ul className='flex gap-3 items-center'>
             <li>
-                <Link className='border orangeBorder' href='/'>
+                <Link className='border orangeBorder' href='/https://www.instagram.com/jnjconstruction2020/'>
                     <FontAwesomeIcon size='lg' key={1} icon={faInstagramSquare} style={{color: "#ed5935",}} /> 
                 </Link>
             </li>
