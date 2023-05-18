@@ -210,32 +210,6 @@ const GalleryMain = (cards) => {
                 <p className='font_small font-light'>Finding your perfect project is about more than just constructing a house; it's about creating a haven that encompasses your passions, values, and vision for the future. Whether you crave a serene oasis tucked away from the chaos of the world or an inspiring space that fosters creativity and connection, the possibilities are endless.</p>
             </div>
             <Image key={100} unoptimized src='/StockPhotos/HeroImage.jpeg' alt='image' width={100} height={100} className='how_img' />
-            
-                
-            {/* <picture className='aspect-[4/5]'>
-                <source
-                media="(max-width: 767px)"
-                sizes="(max-width: 768px) 95vw, 691px"
-                srcset="
-                /Project1/Image1/1V1_dmgymf_c_scale,w_200.webp 200w,
-                /Project1/Image1/1V1_dmgymf_c_scale,w_649.webp 649w,
-                /Project1/Image1/1V1_dmgymf_c_scale,w_691.webp 691w"/>
-                <source
-                media="(min-width: 768px) and (max-width: 991px)"
-                sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
-                srcset="
-                /Project1/Image1/1V1_dmgymf_c_scale,w_231.webp 231w,
-                /Project1/Image1/1V1_dmgymf_c_scale,w_298.webp 298w"/>
-                <img
-                sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
-                srcset="
-                /Project1/Image1/1V1_dmgymf_c_scale,w_298.webp 298w,
-                /Project1/Image1/1V1_dmgymf_c_scale,w_641.webp 641w,
-                /Project1/Image1/1V1_dmgymf_c_scale,w_852.webp 852w,
-                /Project1/Image1/1V1_dmgymf_c_scale,w_864.webp 864w"
-                src="/Project1/Image1/1V1_dmgymf_c_scale,w_864.webp"
-                alt=""/>
-            </picture> */}
 
         </div>
         <div className='flex flex-col items-center'>
@@ -287,7 +261,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='aspect-[4/5] relative group/card1'>
-                <Image unoptimized key={1} src={GalleryData[currentSet2].CardImages[currentIndex2].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                {/* <Image unoptimized key={1} src={GalleryData[currentSet2].CardImages[currentIndex2].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[0].image}
+                        {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[1].image}
+                        {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[3].image}
+                        {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[5].image}
+                    {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[6].image}
+                    {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[7].image}
+                    {...GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[8].image}
+                    src={GalleryData[currentSet2].CardImages[currentIndex2].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                 <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                     <p className='text-[14px] font-light  '>{`${GalleryData[currentSet2].type}`}</p>
                     <h4 className=' text-[20px] '>{`${GalleryData[currentSet2].projectName}`}</h4>
@@ -301,7 +304,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='aspect-[4/5] relative group/card1'>
-                <Image unoptimized key={1} src={GalleryData[currentSet3].CardImages[currentIndex3].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                {/* <Image unoptimized key={1} src={GalleryData[currentSet3].CardImages[currentIndex3].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[0].image}
+                        {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[1].image}
+                        {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[3].image}
+                        {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[5].image}
+                    {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[6].image}
+                    {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[7].image}
+                    {...GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[8].image}
+                    src={GalleryData[currentSet3].CardImages[currentIndex3].SrcImage[8].image}
+                    alt="Image 1"/>
+                </picture>
                 <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                     <p className='text-[14px] font-light  '>{`${GalleryData[currentSet3].type}`}</p>
                     <h4 className=' text-[20px] '>{`${GalleryData[currentSet3].projectName}`}</h4>
@@ -315,7 +347,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
-                    <Image unoptimized key={1} src={GalleryData[currentSet4].CardImages[currentIndex4].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                    {/* <Image unoptimized key={1} src={GalleryData[currentSet4].CardImages[currentIndex4].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                    <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[0].image}
+                        {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[1].image}
+                        {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[3].image}
+                        {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[5].image}
+                    {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[6].image}
+                    {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[7].image}
+                    {...GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[8].image}
+                    src={GalleryData[currentSet4].CardImages[currentIndex4].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet4].type}`}</p>
                         <h4 className=' text-[20px] '>{`${GalleryData[currentSet4].projectName}`}</h4>
@@ -329,7 +390,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
-                    <Image unoptimized key={1} src={GalleryData[currentSet5].CardImages[currentIndex5].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                    {/* <Image unoptimized key={1} src={GalleryData[currentSet5].CardImages[currentIndex5].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                    <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[0].image}
+                        {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[1].image}
+                        {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[3].image}
+                        {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[5].image}
+                    {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[6].image}
+                    {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[7].image}
+                    {...GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[8].image}
+                    src={GalleryData[currentSet5].CardImages[currentIndex5].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet5].type}`}</p>
                         <h4 className=' text-[20px] '>{`${GalleryData[currentSet5].projectName}`}</h4>
@@ -343,7 +433,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
-                    <Image unoptimized key={1} src={GalleryData[currentSet6].CardImages[currentIndex6].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                    {/* <Image unoptimized key={1} src={GalleryData[currentSet6].CardImages[currentIndex6].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                    <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[0].image}
+                        {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[1].image}
+                        {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[3].image}
+                        {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[5].image}
+                    {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[6].image}
+                    {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[7].image}
+                    {...GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[8].image}
+                    src={GalleryData[currentSet6].CardImages[currentIndex6].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
                         <h4 className=' text-[20px] '>{`${GalleryData[currentSet6].projectName}`}</h4>
@@ -357,7 +476,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
-                    <Image unoptimized key={1} src={GalleryData[currentSet7].CardImages[currentIndex7].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                    {/* <Image unoptimized key={1} src={GalleryData[currentSet7].CardImages[currentIndex7].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                    <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[0].image}
+                        {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[1].image}
+                        {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[3].image}
+                        {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[5].image}
+                    {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[6].image}
+                    {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[7].image}
+                    {...GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[8].image}
+                    src={GalleryData[currentSet7].CardImages[currentIndex7].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
                         <h4 className=' text-[20px] '>{`${GalleryData[currentSet7].projectName}`}</h4>
@@ -371,7 +519,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
-                    <Image unoptimized key={1} src={GalleryData[currentSet8].CardImages[currentIndex8].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                    {/* <Image unoptimized key={1} src={GalleryData[currentSet8].CardImages[currentIndex8].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                    <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[0].image}
+                        {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[1].image}
+                        {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[3].image}
+                        {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[5].image}
+                    {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[6].image}
+                    {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[7].image}
+                    {...GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[8].image}
+                    src={GalleryData[currentSet8].CardImages[currentIndex8].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
                         <h4 className=' text-[20px] '>{`${GalleryData[currentSet8].projectName}`}</h4>
@@ -385,7 +562,36 @@ const GalleryMain = (cards) => {
                 </div>
 
                 <div className='hidden tablet:block aspect-[4/5] relative group/card1'>
-                    <Image unoptimized key={1} src={GalleryData[currentSet9].CardImages[currentIndex9].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/>
+                    {/* <Image unoptimized key={1} src={GalleryData[currentSet9].CardImages[currentIndex9].image} alt='Image' width={100} height={100} className='service_imgs rounded-xl aspect-[4/5] group hello'/> */}
+                    <picture className='service_imgs rounded-xl aspect-[4/5]'>
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(max-width: 767px)"
+                    sizes="(max-width: 768px) 95vw, 691px"
+                    srcset= 
+                        {GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[0].image}
+                        {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[1].image}
+                        {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[2].image}
+                    />
+                    <source
+                    className='rounded-xl aspect-[4/5]'
+                    media="(min-width: 768px) and (max-width: 991px)"
+                    sizes="(max-width: 993px) calc(.333 * (95vw - 2rem)), 298px"
+                    srcset=
+                        {GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[3].image}
+                        {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[4].image}
+                    />
+                    <img
+                    className='rounded-xl aspect-[4/5]'
+                    sizes="(max-width: 2880px) calc(.333 * (95vw - 2rem)), 864px"
+                    srcset=
+                    {GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[5].image}
+                    {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[6].image}
+                    {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[7].image}
+                    {...GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[8].image}
+                    src={GalleryData[currentSet9].CardImages[currentIndex9].SrcImage[9].image}
+                    alt="Image 1"/>
+                </picture>
                     <div className='absolute left-[10%] bottom-[20%] text-white flex flex-col gap-3'>
                         <p className='text-[14px] font-light  '>{`${GalleryData[currentSet6].type}`}</p>
                         <h4 className=' text-[20px] '>{`${GalleryData[currentSet9].projectName}`}</h4>
