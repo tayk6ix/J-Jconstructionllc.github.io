@@ -14,7 +14,7 @@ const handleNav = () => {
     <div className='top-0 bg-transparent h-[10vh] overall-padding flex justify-between items-center z-[3]'>
 
         <Link href='/' className='w-1/4 max-w-[13rem] max-h-[10vh]'>
-            <img className='h-fit' src="/LOGO.png" alt="Logo" />
+            <img src="/LOGO.png" alt="Logo" />
         </Link>
 
         {/* mobile and tablet button */}
