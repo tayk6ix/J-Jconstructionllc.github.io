@@ -1,10 +1,12 @@
 import Head from "next/head"
 import Footer from "@/components/Footer"
-import ServiceNavbar from "@/components/ServicesNavbar"
-import SerivcesHero from "@/components/SerivcesHero"
+import Hero2 from "@/components/Hero2"
 import ServicesMain from "@/components/ServicesMain"
 import ContactUs from "@/components/ContactUs"
 import { ServiceData } from "@/constants/ServiceData"
+import Navbar from "@/components/Navbar"
+import servicesHeroImage from "public/Static/galleryHeroImage.webp"
+
 
 export default function ContactUS() {
     return (
@@ -15,12 +17,16 @@ export default function ContactUS() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div className='relative'>
+        <header className='relative'>
            {/* Orange Background */}
           <div className='navOrange'/>
-          <ServiceNavbar/>
-          <SerivcesHero/>
-        </div>
+          <Navbar/>
+          <Hero2 
+            image = {servicesHeroImage}
+            title = {0}
+            text = {0}
+            />
+        </header>
         <ServicesMain cards={ServiceData}/>
         <ContactUs/>
         <Footer/>

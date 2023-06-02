@@ -3,20 +3,33 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import {faInstagramSquare} from '@fortawesome/free-brands-svg-icons'
+import Image from 'next/image'
+import logoImage from 'public/Static/LOGO.png'
 
 
 const ServiceNavbar = () => {
 const [nav, setNav] = useState(false)
 
+
+
 const handleNav = () => {
     setNav(!nav)    
 }
+
+
 
   return (
     <div className='top-0 bg-transparent h-[10vh] overall-padding flex justify-between items-center z-[3]'>
 
         <Link href='/' className='w-1/4 max-w-[13rem] max-h-[10vh]'>
-            <img  src="/LOGO.png" alt="Logo" />
+            <Image
+              src={logoImage}
+              alt='J&J Construction, LLC Logo'
+              placeholder='blur'
+              priority
+              quality={100}
+              sizes='15vw'
+            />
         </Link>
 
         {/* mobile and tablet button */}
@@ -38,10 +51,10 @@ const handleNav = () => {
               )}
           </div>
           <ul className='hidden desktop:flex flex-row text-white gap-14 font_small ' >
-            <li className='ease-in duration-300 hover:text-[#042956] hover:text-[21px]'><Link href='/'>Home</Link></li>
-            <li className='ease-in duration-300 hover:text-[#042956] hover:text-[21px]'><Link href='/#aboutUs'>About Us</Link></li>
-            <li className='currentTab ease-in duration-300 hover:text-[#042956] hover:text-[21px]'><Link href='/services'>Services</Link></li>
-            <li className='ease-in duration-300 hover:text-[#042956] hover:text-[21px]'><Link href='/gallery'>Gallery</Link></li>
+            <li onClick={changeCurrentPageHover} className={`${currentPageHover}  ease-in duration-300 hover:text-[#042956] hover:text-[21px]`}><Link href='/'>Home</Link></li>
+            <li onClick={changeCurrentPageHover} className='ease-in duration-300 hover:text-[#042956] hover:text-[21px]'><Link href='/#aboutUs'>About Us</Link></li>
+            <li onClick={changeCurrentPageHover} className={`${currentPageHover} currentTab ease-in duration-300 hover:text-[#042956] hover:text-[21px]`}><Link href='/services'>Services</Link></li>
+            <li onClick={changeCurrentPageHover} className='ease-in duration-300 hover:text-[#042956] hover:text-[21px]'><Link href='/gallery'>Gallery</Link></li>
           </ul>
           <Link className='hidden tablet:block contact_us2 ' href='/contactUs'>Contact Us</Link>
         </div>

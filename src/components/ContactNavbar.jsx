@@ -3,7 +3,8 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import {faInstagramSquare} from '@fortawesome/free-brands-svg-icons'
-
+import Image from 'next/image'
+import logoImage from 'public/Static/LOGO.png'
 
 const ContactNavbar = () => {
 const [nav, setNav] = useState(false)
@@ -15,10 +16,16 @@ const handleNav = () => {
   return (
     <div className='top-0 bg-transparent h-[10vh] overall-padding flex justify-between items-center z-[3]'>
 
-        <Link href='/' className='w-1/4 max-w-[13rem] max-h-[10vh]'>
-            <img  src="/LOGO.png" alt="Logo" />
+          <Link href='/' className='w-1/4 max-w-[13rem] max-h-[10vh]'>
+            <Image
+              src={logoImage}
+              alt='J&J Construction, LLC Logo'
+              placeholder='blur'
+              priority
+              quality={100}
+              sizes='15vw'
+            />
         </Link>
-
         {/* mobile and tablet button */}
         <div className='flex flex-row items-center gap-12'>
         <Link className='border orangeBorder' href='https://www.instagram.com/jnjconstruction2020/'>

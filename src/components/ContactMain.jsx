@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const ContactMain = () => {
   return (
-    <div id='contactMain' className='overall-margin grid grid-cols-1 gap-10 separation-margin desktop:grid-cols-2 '>
-        <div className='flex flex-col gap-8'>
+    <main id='contactMain' className='overall-margin grid grid-cols-1 gap-10 separation-margin desktop:grid-cols-2 '>
+        <section className='flex flex-col gap-8'>
             <div className='flex flex-col gap-2'>
                 <h2 className='font_h2 font-semibold'>Contact us</h2>
                 <p className='font_small font-light '>Speak with one of our expert team members and learn how J&J Constructor can personalize your Construction needs.</p>
@@ -18,10 +18,6 @@ const ContactMain = () => {
             <div className='flex flex-col gap-2'>
                 <h3 className='font_medium_large'>Onsite visit</h3>
                 <div className='flex flex-col gap-2 tablet:flex-row desktop:flex-col'>
-                    {/* <Link className='flex flex-row gap-2 items-center' href='/'>
-                    <FontAwesomeIcon icon={faPhone} style={{color: '#ED5931'}}/>
-                        <p className='font_small font-light'>Video Call</p>
-                    </Link> */}
                     <Link className='flex flex-row gap-2 items-center' href='mailto: info@jnjconstructionllc.net'>
                     <FontAwesomeIcon icon={faEnvelope} style={{color: '#ED5931'}} />
                         <p className='font_small font-light'>info@jnjconstructionllc.net</p>
@@ -32,9 +28,9 @@ const ContactMain = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </section>
         <ContactForm/>
-    </div>
+    </main>
   )
 }
 

@@ -1,13 +1,14 @@
 import Head from "next/head"
-import GalleryNavbar from "@/components/GalleryNavbar"
-import GalleryHero from "@/components/GalleryHero"
+import Hero2 from "@/components/Hero2"
 import GalleryMain from "@/components/GalleryMain"
 import ContactUs from "@/components/ContactUs"
 import Footer from "@/components/Footer"
-import { GalleryData } from "@/constants/GalleryData" 
+import Navbar from "@/components/Navbar"
+import galleryHeroImage from "public/Static/serviceHeroImage.webp"
 
 
-export default function ContactUS() {
+
+export default function Gallery() {
     return (
       <>
         <Head>
@@ -16,13 +17,17 @@ export default function ContactUS() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div className='relative'>
+        <header className='relative'>
            {/* Orange Background */}
           <div className='navOrange'/>
-          <GalleryNavbar/>
-          <GalleryHero/>
-        </div>
-        <GalleryMain cards={GalleryData}/>
+          <Navbar/>
+          <Hero2 
+            image = {galleryHeroImage}
+            title = {1}
+            text = {1}
+            />
+        </header>
+        <GalleryMain />
         <ContactUs/>
         <Footer/>
       </>

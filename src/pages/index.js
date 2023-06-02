@@ -9,6 +9,10 @@ import ContactUs from '@/components/ContactUs'
 import Footer from '@/components/Footer'
 import { ServiceData } from '@/constants/ServiceData'
 import { HowData } from '@/constants/HowData'
+import { GalleryData } from '@/constants/GalleryData'
+import landingHeroImage from '/public/Static/HeroImage.webp'
+
+
 
 export default function Home() {
   return (
@@ -19,16 +23,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='relative'>
+      <header className='relative'>
          {/* Orange Background */}
         <div className='navOrange'/>
-        <Navbar/>
-        <Hero/>
-      </div>
+        <Navbar />
+        <Hero image = {landingHeroImage} />
+      </header>
       <AboutUs/>
       <Services cards={ServiceData}/>
       <How cards={HowData}/>
-      <MiniGallery/>
+      <MiniGallery cards={GalleryData}/>
       <ContactUs/>
       <Footer/>
     </>

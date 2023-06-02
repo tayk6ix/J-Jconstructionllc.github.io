@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const FooterMenu = () => {
   return (
-    <div className=' desktop:mt-0 grid grid-cols-2 grid-flow-auto gap-[2%] w-full'>
+    <nav className=' desktop:mt-0 grid grid-cols-2 grid-flow-auto gap-[2%] w-full'>
       <div className='text-white'>
         <h2 className='font_h2 font-medium'>Services</h2>
         <div className='grid grid-cols-2 grid-flow-auto my-[5%]'>
@@ -12,16 +12,16 @@ const FooterMenu = () => {
         </div>
         <ul className='font_small font-light flex flex-col gap-2'>
           <li className='footerItem'>
-            <Link href='/services#siding'>Siding</Link>
+            <Link href='/services#Siding'>Siding</Link>
           </li>
           <li className='footerItem'>
-            <Link href='/services#roofing'>Roofing</Link>
+            <Link href='/services#Roofing'>Roofing</Link>
           </li>
           <li className='footerItem'>
-            <Link href='/services#framing'>Framing</Link>
+            <Link href='/services#Framing'>Framing</Link>
           </li>
           <li className='footerItem'>
-            <Link href='/services#drywall'>Drywall</Link>
+            <Link href='/services#Drywall'>Drywall</Link>
           </li>
         </ul>
       </div>
@@ -46,7 +46,7 @@ const FooterMenu = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   )
 }
 
