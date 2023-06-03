@@ -192,24 +192,95 @@ export const GalleryData = [
     },
     {
         id: 9,
-        type: 'Commercial',
-        projectName: "G@Market",
+        type: 'Residential',
+        projectName: "Modern Black and White House",
+        keywords: [
+            'siding',
+            'hardie',
+            'painting',
+            'black',
+            'white'
+        ],
+        images: [
+            {
+                img: "/Project10/1.webp"
+            },
+            {
+                img: "/Project10/2.webp"
+            }
+        ],  
+
+    },
+    {
+        id: 10,
+        type: 'Residential',
+        projectName: "Warm Color Home",
+        keywords: [
+            'siding',
+            'hardie',
+            'brick',
+            'baige'
+        ],
+        images: [
+            {
+                img: "/Project11/1.webp"
+            },
+            {
+                img: "/Project11/2.webp"
+            },
+            {
+                img: "/Project11/3.webp"
+            }
+        ],  
+
+    },
+    {
+        id: 11,
+        type: 'Residential',
+        projectName: "Home by the lake surrounded by trees",
+        keywords: [
+            'siding',
+            'hardie',
+            'blue',
+            'stairs',
+            'porch'
+        ],
+        images: [
+            {
+                img: "/Project12/1.webp"
+            },
+            {
+                img: "/Project12/2.webp"
+            },
+            {
+                img: "/Project12/3.webp"
+            },
+            {
+                img: "/Project12/4.webp"
+            }
+        ],  
+
+    },
+    {
+        id: 12,
+        type: 'Residential',
+        projectName: "Outskirts Home",
         keywords: [
             'siding',
             'hardie',
         ],
         images: [
             {
-                img: "/Project2/4V1.webp"
+                img: "/Project13/1.webp"
             },
             {
-                img: "/Project2/2V1.webp"
+                img: "/Project13/2.webp"
             },
             {
-                img: "/Project2/5V1.webp"
+                img: "/Project13/3.webp"
             },
             {
-                img: "/Project2/11V1.webp"
+                img: "/Project13/4.webp"
             }
         ],  
 

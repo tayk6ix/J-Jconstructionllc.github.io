@@ -51,64 +51,64 @@ const GalleryMain = () => {
 
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(0)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(1)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(2)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(3)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(4)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(5)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(6)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(7)}
+                    linkSet={false}
                 />
                 <GalleryCard
                     subcard = {GalleryData} 
-                    currentIndex={1}
                     currentSet={index(8)}
+                    linkSet={false}
                 />
 
 
-                <div className=' absolute top-[-5rem] translate-x-0 left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                <figure className=' absolute top-[-5rem] translate-x-0 left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <FontAwesomeIcon icon={faAngleLeft} size="2xl" style={{color: "#FFFFFF",}}  onClick={prevProject} />
-                </div>
-                <div className=' absolute top-[-5rem] translate-x-0 right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                </figure>
+                <figure className=' absolute top-[-5rem] translate-x-0 right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <FontAwesomeIcon icon={faAngleRight} size="2xl" style={{color: "#FFFFFF",}} onClick={nextProject} />
-                </div>
+                </figure>
                 
-                <div className='absolute bottom-[-4rem] translate-x-[-5rem] left-[50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                <figure className='absolute bottom-[-4rem] translate-x-[-5rem] left-[50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <FontAwesomeIcon icon={faAngleLeft} size="2xl" style={{color: "#FFFFFF",}}  onClick={prevProject} />
-                </div>
-                <div className='absolute bottom-[-4rem] translate-x-[5rem] right-[50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                </figure>
+                <figure className='absolute bottom-[-4rem] translate-x-[5rem] right-[50%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <FontAwesomeIcon icon={faAngleRight} size="2xl" style={{color: "#FFFFFF",}} onClick={nextProject} />
-                </div> 
+                </figure> 
 
 
             </div>

@@ -269,3 +269,9 @@ input, textarea {
 input:focus, textarea:focus{
     outline: none;
 }
+
+/* Logo Width */
+
+.logoWidth{
+    width: clamp(8rem, 15vw, 37.5vw)
+}

@@ -13,6 +13,7 @@ const Hero = ({image}) => {
             className='object-cover z-[1] absolute inset-0 h-full'
             priority 
             placeholder='blur'
+            // quality={100}
             sizes='(min-width: 600px) 95vw, 100vw'
       />
       <h1 className='z-[2] font_title leading-tight w-4/5 font-semibold tablet:font-bold tablet:leading-none tablet:w-[58%]'>Together, <br className='hidden tablet:block'/> let's build your dream</h1>

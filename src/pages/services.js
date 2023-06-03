@@ -20,7 +20,11 @@ export default function ContactUS() {
         <header className='relative'>
            {/* Orange Background */}
           <div className='navOrange'/>
-          <Navbar/>
+          <Navbar 
+          homeTab={false}
+          serviceTab={true}
+          galleryTab={false}
+          contactUsTab={false}/>
           <Hero2 
             image = {servicesHeroImage}
             title = {0}

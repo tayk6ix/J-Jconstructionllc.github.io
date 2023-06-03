@@ -20,7 +20,11 @@ export default function Gallery() {
         <header className='relative'>
            {/* Orange Background */}
           <div className='navOrange'/>
-          <Navbar/>
+          <Navbar 
+          homeTab={false}
+          serviceTab={false}
+          galleryTab={true}
+          contactUsTab={false}/>
           <Hero2 
             image = {galleryHeroImage}
             title = {1}

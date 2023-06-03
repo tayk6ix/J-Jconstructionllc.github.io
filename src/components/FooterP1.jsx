@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faInstagramSquare, faFacebookSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo2 from 'public/Static/LOGO2.png'
+import logo2 from 'public/Static/LOGO2v2.webp'
 import planHubImage from 'public/Static/planhub-logo.png'
 
 

@@ -11,6 +11,7 @@ const Hero2 = ({image, title, text}) => {
             alt='Image of a house located in Bella Vista, Arkansas' 
             className='object-cover z-[1] absolute inset-0 h-full w-full'
             priority
+            // quality={100}
             placeholder='blur'
             sizes='100vw'
       />
