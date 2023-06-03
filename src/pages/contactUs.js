@@ -1,9 +1,9 @@
 import Head from "next/head"
 import Footer from "@/components/Footer"
-import ContactNavbar from "@/components/ContactNavbar"
 import ContactMain from "@/components/ContactMain"
 import Hero2 from "@/components/Hero2"
 import contactHeroImage from '/public/Static/contactHeroImage.webp'
+import Navbar from "@/components/Navbar"
 
 
 export default function ContactUS() {
@@ -18,7 +18,7 @@ export default function ContactUS() {
         <header className='relative'>
            {/* Orange Background */}
           <div className='navOrange'/>
-          <ContactNavbar/>
+          <Navbar/>
           <Hero2 
             image = {contactHeroImage}
             title = {2}

@@ -18,11 +18,11 @@ const ContactMain = () => {
             <div className='flex flex-col gap-2'>
                 <h3 className='font_medium_large'>Onsite visit</h3>
                 <div className='flex flex-col gap-2 tablet:flex-row desktop:flex-col'>
-                    <Link className='flex flex-row gap-2 items-center' href='mailto: info@jnjconstructionllc.net'>
+                    <Link className='flex flex-row gap-2 items-center min-w-[49px] min-h-[48px]' href='mailto: info@jnjconstructionllc.net'>
                     <FontAwesomeIcon icon={faEnvelope} style={{color: '#ED5931'}} />
                         <p className='font_small font-light'>info@jnjconstructionllc.net</p>
                     </Link>
-                    <Link className='flex flex-row gap-2 items-center' href="http://maps.google.com/?q=Northwest Arkansas">
+                    <Link className='flex flex-row gap-2 items-center min-w-[49px] min-h-[48px]' href="http://maps.google.com/?q=Northwest Arkansas">
                     <FontAwesomeIcon icon={faLocationDot} style={{color: '#ED5931'}}/>
                         <p className='font_small font-light'>Located in Northwest Arkansas</p>
                     </Link>

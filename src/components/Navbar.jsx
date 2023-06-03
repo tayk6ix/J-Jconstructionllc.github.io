@@ -27,14 +27,14 @@ const handleNav = () => {
   return (
     <nav className='bg-transparent h-[10vh] overall-padding flex justify-between items-center z-[3]'>
 
-        <Link aria-label='Link to Home' href='/' className='w-1/4 max-w-[13rem] max-h-[10vh]'>
+        <Link aria-label='Link to Home' href='/' className='min-w-[147px] w-1/4 max-w-[13rem] max-h-[10vh]'>
             <Image
               src={logoImage}
               alt='J&J Construction, LLC Logo'
               placeholder='blur'
               // priority
               // quality={100}
-              sizes='15vw'
+              sizes='(min-width: 600px) 20vw, (min-width: 1200px) 15vw, 25vw'
             />
         </Link>
 

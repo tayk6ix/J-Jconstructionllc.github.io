@@ -10,16 +10,16 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project1/1V1.JPG"
+                img: "/Project1/1V1.webp"
             },
             {
-                img: "/Project1/2V1.JPG"
+                img: "/Project1/2V1.webp"
             },
             {
-                img: "/Project1/6V1.JPG"
+                img: "/Project1/6V1.webp"
             },
             {
-                img: "/Project1/8V1.JPG"
+                img: "/Project1/8V1.webp"
             }
         ],  
 
@@ -34,16 +34,16 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project2/2V1.JPG"
+                img: "/Project2/2V1.webp"
             },
             {
-                img: "/Project2/4V1.JPG"
+                img: "/Project2/4V1.webp"
             },
             {
-                img: "/Project2/5V1.JPG"
+                img: "/Project2/5V1.webp"
             },
             {
-                img: "/Project2/11V1.JPG"
+                img: "/Project2/11V1.webp"
             }
         ],  
 
@@ -58,13 +58,13 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project3/1V1.JPG"
+                img: "/Project3/1V1.webp"
             },
             {
-                img: "/Project3/2V1.JPG"
+                img: "/Project3/2V1.webp"
             },
             {
-                img: "/Project3/4V1.JPG"
+                img: "/Project3/4V1.webp"
             },
         ],  
 
@@ -80,13 +80,13 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project4/1V1.JPG"
+                img: "/Project4/1V1.webp"
             },
             {
-                img: "/Project4/2V1.JPG"
+                img: "/Project4/2V1.webp"
             },
             {
-                img: "/Project4/3V1.JPG"
+                img: "/Project4/3V1.webp"
             },
         ],  
 
@@ -101,16 +101,16 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project5/1V1.JPG"
+                img: "/Project5/1V1.webp"
             },
             {
-                img: "/Project5/4V1.JPG"
+                img: "/Project5/4V1.webp"
             },
             {
-                img: "/Project5/8V1.JPG"
+                img: "/Project5/8V1.webp"
             },
             {
-                img: "/Project5/10V1.JPG"
+                img: "/Project5/10V1.webp"
             }
         ],  
 
@@ -125,16 +125,16 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project6/1V1.JPG"
+                img: "/Project6/1V1.webp"
             },
             {
-                img: "/Project6/2V1.JPG"
+                img: "/Project6/2V1.webp"
             },
             {
-                img: "/Project6/4V1.JPG"
+                img: "/Project6/4V1.webp"
             },
             {
-                img: "/Project6/6V1.JPG"
+                img: "/Project6/6V1.webp"
             }
         ],  
 
@@ -151,13 +151,13 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project7/1V1.JPG"
+                img: "/Project7/1V1.webp"
             },
             {
-                img: "/Project7/2V1.JPG"
+                img: "/Project7/2V1.webp"
             },
             {
-                img: "/Project7/4V1.JPG"
+                img: "/Project7/4V1.webp"
             },
         ],  
 
@@ -173,19 +173,19 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project8/1V1.JPG"
+                img: "/Project8/1V1.webp"
             },
             {
-                img: "/Project8/2V1.JPG"
+                img: "/Project8/2V1.webp"
             },
             {
-                img: "/Project8/3V1.JPG"
+                img: "/Project8/3V1.webp"
             },
             {
-                img: "/Project8/4V1.JPG"
+                img: "/Project8/4V1.webp"
             },
             {
-                img: "/Project8/5V1.JPG"
+                img: "/Project8/5V1.webp"
             }
         ],  
 
@@ -200,16 +200,16 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project2/4V1.JPG"
+                img: "/Project2/4V1.webp"
             },
             {
-                img: "/Project2/2V1.JPG"
+                img: "/Project2/2V1.webp"
             },
             {
-                img: "/Project2/5V1.JPG"
+                img: "/Project2/5V1.webp"
             },
             {
-                img: "/Project2/11V1.JPG"
+                img: "/Project2/11V1.webp"
             }
         ],  
 
