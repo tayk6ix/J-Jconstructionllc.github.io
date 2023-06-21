@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactForm from './ContactForm'
+import ContactForm2 from './ContactForm2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
@@ -29,7 +30,7 @@ const ContactMain = () => {
                 </div>
             </div>
         </section>
-        <ContactForm/>
+        <ContactForm2/>
     </main>
   )
 }
