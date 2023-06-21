@@ -127,7 +127,7 @@ export default function Home() {
                 <ReCAPTCHA
                     ref={recaptchaRef}
                     size='normal'
-                    sitekey= {process.env.RECAPTCHA_SECRET_KEY}
+					sitekey= {NEXT_PUBLIC_RECAPTCHA_SECRET_KEY}
                 />
 	  
 				<input 
