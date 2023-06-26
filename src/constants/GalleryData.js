@@ -10,16 +10,16 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project1/1V1.webp"
-            },
-            {
-                img: "/Project1/2V1.webp"
-            },
-            {
                 img: "/Project1/6V1.webp"
             },
             {
                 img: "/Project1/8V1.webp"
+            },
+            {
+                img: "/Project1/1V1.webp"
+            },
+            {
+                img: "/Project1/2V1.webp"
             }
         ],  
 
@@ -34,6 +34,9 @@ export const GalleryData = [
         ],
         images: [
             {
+                img: "/Project2/11V1.webp"
+            },
+            {
                 img: "/Project2/2V1.webp"
             },
             {
@@ -42,9 +45,7 @@ export const GalleryData = [
             {
                 img: "/Project2/5V1.webp"
             },
-            {
-                img: "/Project2/11V1.webp"
-            }
+            
         ],  
 
     },
@@ -80,14 +81,17 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project4/1V1.webp"
+                img: "/Project4/6V1.webp"
             },
             {
                 img: "/Project4/2V1.webp"
             },
             {
-                img: "/Project4/3V1.webp"
+                img: "/Project4/4V1.webp"
             },
+            {
+                img: "/Project4/5V1.webp"
+            }
         ],  
 
     },
@@ -101,9 +105,6 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project5/1V1.webp"
-            },
-            {
                 img: "/Project5/4V1.webp"
             },
             {
@@ -111,6 +112,9 @@ export const GalleryData = [
             },
             {
                 img: "/Project5/10V1.webp"
+            },
+            {
+                img: "/Project5/1V1.webp"
             }
         ],  
 
@@ -125,13 +129,13 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project6/1V1.webp"
+                img: "/Project6/4V1.webp"
             },
             {
                 img: "/Project6/2V1.webp"
             },
             {
-                img: "/Project6/4V1.webp"
+                img: "/Project6/1V1.webp"
             },
             {
                 img: "/Project6/6V1.webp"
@@ -151,13 +155,13 @@ export const GalleryData = [
         ],
         images: [
             {
-                img: "/Project7/1V1.webp"
+                img: "/Project7/4V1.webp"
             },
             {
                 img: "/Project7/2V1.webp"
             },
             {
-                img: "/Project7/4V1.webp"
+                img: "/Project7/1V1.webp"
             },
         ],  
 
@@ -283,6 +287,71 @@ export const GalleryData = [
                 img: "/Project13/4.webp"
             }
         ],  
-
+    },
+    {
+        id: 13,
+        type: 'Residential',
+        projectName: "Lovely house in Rogers AR",
+        keywords: [
+            'siding',
+            'hardie',
+        ],
+        images: [
+            {
+                img: "/Project14/3.webp"
+            },
+            {
+                img: "/Project14/5.webp"
+            },
+            {
+                img: "/Project14/4.webp"
+            },
+            {
+                img: "/Project14/6.webp"
+            }
+        ],  
+    },
+    {
+        id: 14,
+        type: 'Commercial',
+        projectName: "Home2Suites by Hilton Hotel in Rogers AR",
+        keywords: [
+            'siding',
+            'hardie',
+        ],
+        images: [
+            {
+                img: "/Project15/1.webp"
+            },
+            {
+                img: "/Project15/2.webp"
+            },
+            {
+                img: "/Project15/3.webp"
+            }
+        ],  
+    },
+    {
+        id: 15,
+        type: 'Commercial',
+        projectName: "'Las Margaritas' in Springdale AR",
+        keywords: [
+            'siding',
+            'hardie',
+        ],
+        images: [
+            {
+                img: "/Project16/4.webp"
+            },
+            {
+                img: "/Project16/3.webp"
+            },
+            {
+                img: "/Project16/1.webp"
+            },
+            {
+                img: "/Project16/2.webp"
+            }
+        ],  
     },
 ]

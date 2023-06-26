@@ -73,7 +73,7 @@ const handleNav = () => {
               className= ' ease-in duration-300 hover:text-[#042956] hover:text-[21px]'>
               <Link 
                 aria-label='Link to About Us' 
-                href='#aboutUs'
+                href='/#aboutUs'
                 >About Us</Link>
             </li>
             <li 
